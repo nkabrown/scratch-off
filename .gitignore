@@ -1,0 +1,18 @@
+# ignore platform generated directory metadata files
+.DS_Store
+thumbs.db
+
+# ignore JavaScript dependencies
+node_modules/
+
+# ignore common editor directories and files
+## Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+*.suo
+## JetBrains
+.idea/
